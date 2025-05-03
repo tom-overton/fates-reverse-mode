@@ -1,5 +1,5 @@
-VantagePlusHook:
+ReverseModeHook:
     type:   branch
     link:   true
-    func:   VantagePlusAsm
+    func:   ReverseModeAsm
     addr:   0x0036ef68

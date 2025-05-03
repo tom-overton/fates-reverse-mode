@@ -5,7 +5,7 @@
 .set Force__Get, 0x004f630c
 .set Force__IsAllied, 0x0053c3e0
 
-VantagePlusAsm:
+ReverseModeAsm:
     ldr        r0, [r4, #0x0]
     ldr        r0, [r0,#0xa4]
     ldrb       r0, [r0, #0x8]
