@@ -1,16 +1,16 @@
-# fates-enemy-vantage-plus-mod
+# fates-reverse-mode
 
-This repo can be built using [Magikoopa](https://github.com/RicBent/Magikoopa/tree/master) to create a mod for Fire Emblem Fates such that enemies will always strike first when attacked, even on player phase. This is reminiscent of the Vantage+ skill in Awakening, hence the name of the mod. However, unlike in Awakening, this skill is innate and will not take up a skill slot; in that regard, it is like the ["Lunatic Reverse" difficulty mode](https://fireemblemwiki.org/wiki/Difficulty#Lunatic%E2%80%B2_Mode) of FE12.
+This repo can be built using [Magikoopa](https://github.com/RicBent/Magikoopa/tree/master) to create a mod for Fire Emblem Fates such that enemies will always strike first when attacked, even on player phase. This is reminiscent of the ["Lunatic Reverse" difficulty mode](https://fireemblemwiki.org/wiki/Difficulty#Lunatic%E2%80%B2_Mode) of FE12. Unlike the Vantage+ skill present in Awakening (which accomplishes essentially the same thing), this mod does *not* add or modify skills for any enemy; this behavior is inherent to every enemy and is not tied to a particular skill.
 
 This mod only supports the US Special Edition of Fire Emblem Fates. I have no plans to ever make this work with any other version of the game. It wouldn't be too hard to figure out the addresses for everything if you want to do it yourself, though.
 
 ## Installation
 
-Download the latest release and unzip the contents. What to do next depends on where you want to play the mod:
+Download the [latest release](https://github.com/tom-overton/fates-reverse-mode/releases) and unzip the contents. What to do next depends on where you want to play the mod:
 
-### For playing the mod on Citra
+### For playing the mod on Citra, Lime3DS, or Azahar
 
-- Right click your copy of Fire Emblem Fates in Citra and select "Open Mods Location"
+- Right click your copy of Fire Emblem Fates in Citra, Lime3DS, or Azahar and select "Open Mods Location"
 - Copy `code.bps` and `exheader.bin` from the unzipped file to the folder that appears. Do ***not*** copy `code.ips` into that folder!
 
 ### For playing the mod on real hardware using Luma3DS
